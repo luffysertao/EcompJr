@@ -35,7 +35,7 @@ O frontend do projeto foi desenvolvido utilizando React.js, que gerencia a inter
 2. **Instale as dependências:**
    ```bash
    npm install
-
+   
 ## Configuração
 Antes de executar o projeto, verifique se o backend está rodando e se as rotas estão corretamente configuradas. Você pode definir a URL do backend no arquivo de configuração do frontend.
 
@@ -44,5 +44,15 @@ Antes de executar o projeto, verifique se o backend está rodando e se as rotas 
 No arquivo src/api/api.js, ajuste o endereço do backend para o caminho correto, dependendo do ambiente (desenvolvimento ou produção):
    ```javascript
    const baseUrl = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+   ```
 
-## Configuração
+## Como Adicionar Imagens
+Para adicionar imagens ao frontend, siga os seguintes passos:
+
+1. Adicione suas imagens à pasta /assets:
+
+Coloque suas imagens na pasta src/assets. Por exemplo, você pode adicionar a imagem do logo da empresa:
+   ```bash
+   /src
+     /assets
+       logo.png
