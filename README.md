@@ -33,6 +33,16 @@ O frontend do projeto foi desenvolvido utilizando React.js, que gerencia a inter
    cd DesafioEcompJr/frontend
 
 2. **Instale as dependências:**
-   '''bash
+   ```bash
    npm install
 
+## Configuração
+Antes de executar o projeto, verifique se o backend está rodando e se as rotas estão corretamente configuradas. Você pode definir a URL do backend no arquivo de configuração do frontend.
+
+1. Verificar URL do Backend:
+
+No arquivo src/api/api.js, ajuste o endereço do backend para o caminho correto, dependendo do ambiente (desenvolvimento ou produção):
+   ```javascript
+   const baseUrl = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+
+## Configuração
