@@ -31,3 +31,8 @@ O frontend do projeto foi desenvolvido utilizando React.js, que gerencia a inter
    ```bash
    git clone https://github.com/tamillycosta/DesafioEcompJr.git
    cd DesafioEcompJr/frontend
+
+2. **Instale as dependências:**
+   '''bash
+   npm install
+
