@@ -56,3 +56,43 @@ Coloque suas imagens na pasta src/assets. Por exemplo, você pode adicionar a im
    /src
      /assets
        logo.png
+   ```
+
+2. Referencie a imagem no código:
+
+No código do React, use a importação para carregar a imagem e exibi-la:
+   ```javascript
+   import logo from '../assets/logo.png';
+
+   function HomePage() {
+     return (
+       <div>
+         <img src={logo} alt="Logo" />
+       </div>
+     );
+   }
+   ```
+Esse exemplo irá exibir a imagem do logo na HomePage.
+
+3. Imagens como Background:
+
+Caso queira usar uma imagem como background em CSS, você pode fazer assim:
+   ```css
+   .home-background {
+     background-image: url('../assets/logo.png');
+     background-size: cover;
+   }
+   ```
+
+## Como Executar
+
+1. Execute o Frontend:
+
+Para iniciar o servidor do frontend em modo de desenvolvimento, use o comando:
+   ```bash
+   npm start
+   ```
+
+2. Acesse o Frontend:
+
+Abra o navegador e acesse http://localhost:3000/ para ver a aplicação rodando. Se o backend estiver rodando corretamente, você poderá fazer login, registrar-se e gerenciar tarefas.
